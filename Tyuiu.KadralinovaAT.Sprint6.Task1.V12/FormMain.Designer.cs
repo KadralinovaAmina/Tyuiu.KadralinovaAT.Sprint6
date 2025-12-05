@@ -178,7 +178,7 @@
             Controls.Add(groupBoxVvod_KAT);
             Controls.Add(groupBoxTask_KAT);
             Name = "FormMain";
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 1 | Вариант 12 | Кадралинова А.Т.";
             groupBoxTask_KAT.ResumeLayout(false);
             groupBoxTask_KAT.PerformLayout();
             groupBoxVvod_KAT.ResumeLayout(false);
