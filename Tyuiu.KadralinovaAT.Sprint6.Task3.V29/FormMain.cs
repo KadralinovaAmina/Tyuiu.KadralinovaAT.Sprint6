@@ -50,7 +50,7 @@ namespace Tyuiu.KadralinovaAT.Sprint6.Task3.V29
             {
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        } 
         private void buttonHelp_KAT_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 3 выполнила студентка группы ПИНб-25-1 Кадралинова Амина Тастемировна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
