@@ -13,16 +13,15 @@ namespace Tyuiu.KadralinovaAT.Sprint6.Task6.V21.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    
+
                     string[] words = line.Split(
                         new[] { ' ', '\t' },
                         StringSplitOptions.RemoveEmptyEntries
                     );
 
-                    foreach (string word in words)
+                    foreach (string word in line.Split())
                     {
-                        
-                        if (word.IndexOf('g', StringComparison.OrdinalIgnoreCase) >= 0)
+                        if (word.Contains('g'))
                         {
                             result.Append(word).Append(" ");
                         }
